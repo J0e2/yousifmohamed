@@ -1,0 +1,80 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('your_background_photo.jpg'); /* Replace 'your_background_photo.jpg' with the actual file path of your background photo */
+  background-size: 1920px 1080px; /* Set the background size to 1920px width and 1080px height */
+  background-position: center;
+}
+
+header {
+  background-image: url('header_background.jpg'); /* Replace 'header_background.jpg' with the actual file path of your header background photo */
+  background-size: cover;
+  color: blue; /* Set all text color to blue */
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 80px; /* Adjust as needed */
+  width: auto;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: blue; /* Set the font color to blue */
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+}
+
+section h2 {
+  color: blue; /* Set the font color of section headings to blue */
+}
+
+section p {
+  color: blue; /* Set the font color of paragraph text to blue */
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: center;
+  color: blue; /* Set the font color of footer text to blue */
+}
+
+.champions {
+  display: flex;
+  justify-content: space-around; /* Adjust as needed */
+}
+
+.champion {
+  text-align: center;
+  flex: 0 1 auto;
+  margin: 10px; /* Adjust as needed */
+}
+
+.champion img {
+  width: 150px; /* Adjust as needed */
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.champion img:hover {
+  transform: scale(1.1);
+}
